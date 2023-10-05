@@ -1,0 +1,43 @@
+#Data API
+
+apikey: '718b3d6d-7d04-3779-a9a4-7433ea57f962'
+
+headers: {'Content-type': 'application/json', 'Accept': 'application/json'}
+
+search_endpoint: 'http://148.251.22.254:8080/search-api-1.0/search/'
+
+data_dir: 'data/'
+
+#
+
+data_requests:
+
+  data_ingredient:  'nuts, nut products and seeds'  #should not be filled in case of non specific selection of ingredient
+
+  predictions_ingredient: 'nuts, nut products and seeds' #should be "NONE" in case of non specific selection of ingredient
+
+  data_hazard:     #should not be filled in case of non specific selection of ingredient
+
+  predictions_hazard: "NONE" #should be "NONE" in case of non specific selection of ingredient
+
+#
+
+THRESHOLD_PERCENTILE: 0.90
+
+timesteps: 6
+
+random_state: 33
+
+Column_name: 'Incidents'
+
+test_size_: 0
+
+shuffle_: False
+
+invalid_observations_removal: False
+
+interval: "MONTH" 
+
+starting_date: '2000-01-01'
+
+end_date: '2023-05-01'
