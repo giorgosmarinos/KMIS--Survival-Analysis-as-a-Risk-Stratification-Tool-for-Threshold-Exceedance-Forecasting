@@ -179,7 +179,7 @@ class DataPreprocessor:
         return X_train, X_test, y_train, y_test
     
 
-
+#TODO incorporate the feature extraction to the pipeline
 def extract_features(df, timesteps):
     """
     Extract time series features from a DataFrame.
