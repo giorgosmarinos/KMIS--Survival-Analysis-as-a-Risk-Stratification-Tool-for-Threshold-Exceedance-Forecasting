@@ -2,11 +2,10 @@ import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
 from sksurv.util import Surv
-from src.synthetic_data_generation.synthetic_data_generation import *
-from src.utils.utils import *
-from src.data_fetching.data_fetching import *
-from src.dataset_construction.dataset_construction import *
-import yaml
+from synthetic_data_generation.synthetic_data_generation import *
+from utils.utils import *
+from data_fetching.data_fetching import *
+from dataset_construction.dataset_construction import *
 
 class DataPreprocessor:
     

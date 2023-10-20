@@ -20,10 +20,10 @@ from sklearn.gaussian_process import GaussianProcessRegressor
 from sklearn.gaussian_process.kernels import RBF
 from sklearn.neural_network import MLPRegressor
 from tabulate import tabulate
-from src.synthetic_data_generation.synthetic_data_generation import *
-from src.utils.utils import *
-from src.data_fetching.data_fetching import *
-from src.dataset_construction.dataset_construction import *
+from synthetic_data_generation.synthetic_data_generation import *
+from utils.utils import *
+from data_fetching.data_fetching import *
+from dataset_construction.dataset_construction import *
 
 class ModelEvaluator:
 
