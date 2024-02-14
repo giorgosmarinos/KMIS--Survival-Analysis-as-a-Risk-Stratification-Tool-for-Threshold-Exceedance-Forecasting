@@ -1,7 +1,8 @@
-![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
-![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
+[![numpy](https://img.shields.io/badge/numpy-013243?logo=numpy)](https://numpy.org/)
+[![pandas](https://img.shields.io/badge/pandas-150458?logo=pandas)](https://pandas.pydata.org/)
+[![matplotlib](https://img.shields.io/badge/matplotlib-11557c?logo=matplotlib)](https://matplotlib.org/)
+[![statsmodels](https://img.shields.io/badge/statsmodels-14151F?logo=statsmodels)](https://www.statsmodels.org/)
+[![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?logo=scikit-learn)](https://scikit-learn.org/)
 ![Scikit-survival](https://img.shields.io/badge/https%3A%2F%2Fgithub.com%2Fsebp%2Fscikit-survival%2Ftree%2Fmaster?style=plastic&logo=scikit-survival&logoColor=navy%20blue&label=Scikit-survival)
 ![Tabulate](https://img.shields.io/badge/https%3A%2F%2Fgithub.com%2Fgregbanks%2Fpython-tabulate?style=plastic&logo=Tabulate&logoColor=navy%20blue&label=Tabulate&color=blue)
 
