@@ -1,21 +1,32 @@
 # Use an official Python runtime as a parent image
-FROM python:3.7
+FROM python:3.10.12
 
 # Set the working directory to /app
 WORKDIR /home/gmarinos/Documents/Code/threshold_exceedance_forecasting
 
-# Copy the current directory contents into the container at /app
+# Copy project directory (replace with actual directory)
 COPY . /home/gmarinos/Documents/Code/threshold_exceedance_forecasting
 
-# Install any needed packages specified in requirements.txt
-RUN pip install --upgrade pip && \
-    pip install numpy pandas seaborn scikit-learn torch==1.3.1 torchvision==0.4.2 tqdm==4.63.1 #change the libraries
+RUN PATH="/home/gmarinos/Documents/Code/threshold_exceedance_forecasting/"
 
-# Make port 80 available to the world outside this container
-#change the port  EXPOSE 80  
+# Install pip (if unsure about the base image)
+RUN apt-get update && apt-get install -y --no-install-recommends build-essential libopenblas-dev libatlas-base-dev liblapack-dev
 
-# Define environment variable
-ENV NAME World #change the name
+# Install required packages
+RUN pip install --no-cache-dir \
+    scikit-learn \
+    scikit-survival \
+    tsfel \
+    tabulate \
+    pyyaml \
+    pandas \
+    numpy \
+    scipy \
+    matplotlib \
+    seaborn \
+    requests \
+    lightgbm  # Optional, uncomment if needed
+ 
 
 # Run app.py when the container launches
-CMD ["python", "put here the link to the main script"]
+CMD ["python3", "main.py"]

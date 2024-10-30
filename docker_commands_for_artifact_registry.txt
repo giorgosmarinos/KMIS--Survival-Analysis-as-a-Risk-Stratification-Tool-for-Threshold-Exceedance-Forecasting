@@ -1,0 +1,5 @@
+first -> upload the dockerfile 
+
+then -> docker build -t europe-west4-docker.pkg.dev/efra-384913/models/exceedance_forecasting:v0.0.1 .
+
+and finally -> docker push europe-west4-docker.pkg.dev/efra-384913/models/exceedance_forecasting:v0.0.1
