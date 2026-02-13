@@ -1,10 +1,10 @@
 #Data API
 
-apikey: '718b3d6d-7d04-3779-a9a4-7433ea57f962'
+apikey: 'use your apikey'
 
 headers: {'Content-type': 'application/json', 'Accept': 'application/json'}
 
-search_endpoint: 'http://148.251.22.254:8080/search-api-1.0/search/'
+search_endpoint: 'put the search endpoint here'
 
 data_dir: 'data/'
 
